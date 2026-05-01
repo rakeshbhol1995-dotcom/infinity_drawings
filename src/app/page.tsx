@@ -7,6 +7,7 @@ import Loader from "@/components/home/Loader";
 import Hero from "@/components/home/Hero";
 import Marquee from "@/components/home/Marquee";
 import Manifesto from "@/components/home/Manifesto";
+import AboutSection from "@/components/home/AboutSection";
 import Stats from "@/components/home/Stats";
 import Gallery from "@/components/home/Gallery";
 import Services from "@/components/home/Services";
@@ -48,7 +49,10 @@ export default function Home() {
               <Manifesto />
           </div>
 
-          {/* Act II: The Archive & Impact */}
+          {/* Act II: The Visionary (About) */}
+          <AboutSection />
+
+          {/* Act III: The Archive & Impact */}
           <div className="relative">
               {/* Background Light Spill */}
               <div className="absolute top-1/2 left-0 w-[50vw] h-[50vw] bg-amber-500/5 blur-[150px] -translate-y-1/2 -z-10" />
@@ -57,19 +61,19 @@ export default function Home() {
               <Gallery />
           </div>
 
-          {/* Act III: The Architecture */}
+          {/* Act IV: The Architecture */}
           <div className="ambient-light">
               <Services />
               <NewsHeadlines />
               <Team />
           </div>
 
-          {/* Act IV: The Reach */}
+          {/* Act V: The Reach */}
           <div className="relative">
               <Logos />
           </div>
 
-          {/* Act V: The Conclusion */}
+          {/* Act VI: The Conclusion */}
           <EndCredits />
 
       </main>
