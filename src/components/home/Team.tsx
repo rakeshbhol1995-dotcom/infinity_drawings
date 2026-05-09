@@ -38,6 +38,14 @@ const team = [
         bio: "The rhythm behind the story, Aswini is an expert in timing and narrative flow, creating seamless cinematic experiences.",
         socials: { instagram: "https://instagram.com/aswini", linkedin: "https://linkedin.com/in/aswini" }
     },
+    { 
+        name: "SOURAV MAHAPATRA", 
+        role: "Creative Director & Management", 
+        img: "/sourav.jpg", 
+        expertise: "Project Execution",
+        bio: "Known for The Jengaburu Curse (2023) and The Mountain Hockey (2021), he leads the creative vision while overseeing project execution and team management.",
+        socials: { instagram: "#", linkedin: "#" }
+    },
 ];
 
 function TiltCard({ children, member }: { children: React.ReactNode, member: any }) {

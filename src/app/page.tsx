@@ -8,13 +8,17 @@ import Hero from "@/components/home/Hero";
 import Marquee from "@/components/home/Marquee";
 import Manifesto from "@/components/home/Manifesto";
 import AboutSection from "@/components/home/AboutSection";
+import Founder from "@/components/home/Founder";
 import Stats from "@/components/home/Stats";
 import Gallery from "@/components/home/Gallery";
 import Services from "@/components/home/Services";
 import NewsHeadlines from "@/components/home/NewsHeadlines";
 import Team from "@/components/home/Team"; // New Section
+import Studio from "@/components/home/Studio";
 import HorizontalScroll from "@/components/home/HorizontalScroll";
+import GlobeMap from "@/components/home/GlobeMap";
 import Logos from "@/components/home/Logos";
+import Testimonials from "@/components/home/Testimonials";
 import EndCredits from "@/components/home/EndCredits";
 
 // Premium Layout Components
@@ -51,6 +55,8 @@ export default function Home() {
 
           {/* Act II: The Visionary (About) */}
           <AboutSection />
+          <Founder />
+          <Studio />
 
           {/* Act III: The Archive & Impact */}
           <div className="relative">
@@ -70,7 +76,9 @@ export default function Home() {
 
           {/* Act V: The Reach */}
           <div className="relative">
+              <GlobeMap />
               <Logos />
+              <Testimonials />
           </div>
 
           {/* Act VI: The Conclusion */}
