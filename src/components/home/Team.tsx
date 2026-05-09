@@ -41,7 +41,7 @@ const team = [
     { 
         name: "SOURAV MAHAPATRA", 
         role: "Creative Director & Management", 
-        img: "/sourav.jpg", 
+        img: "/sourav.png", 
         expertise: "Project Execution",
         bio: "Known for The Jengaburu Curse (2023) and The Mountain Hockey (2021), he leads the creative vision while overseeing project execution and team management.",
         socials: { instagram: "#", linkedin: "#" }
