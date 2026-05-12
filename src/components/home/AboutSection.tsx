@@ -17,6 +17,7 @@ const works = [
     { title: "Trapped (2020)", desc: "A poignant reflection on life during the COVID-19 lockdown." },
     { title: "Zwigato (2023)", desc: "Worked as Assistant Director, gaining experience in large-scale feature filmmaking." },
     { title: "Jengaburu: The Curse (Sony LIV)", desc: "Assisted in direction, coordination, and creative development." },
+    { title: "The Diddle", desc: "Played a key role in production coordination and execution." },
     { title: "Baghuni – Dance Like a Tiger", desc: "A multilingual Odia feature film and one of Odisha’s first international co-productions." }
 ];
 

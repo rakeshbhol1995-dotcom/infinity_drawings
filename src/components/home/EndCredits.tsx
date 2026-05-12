@@ -82,16 +82,6 @@ export default function EndCredits() {
                     {/* Right Side: Studio Footprint */}
                     <div className="lg:col-span-5 space-y-16 lg:pl-12 lg:border-l border-white/5">
                         <div className="space-y-12">
-                            <div className="space-y-6">
-                                <div className="flex items-center gap-4">
-                                    <MapPin className="text-amber-500 w-4 h-4" />
-                                    <span className="text-[10px] font-black tracking-[0.4em] text-amber-500 uppercase">Odisha HQ</span>
-                                </div>
-                                <h3 className="text-xl md:text-2xl font-black uppercase tracking-tighter leading-tight">
-                                    Andharpur, Near Railway Crossing<br />
-                                    Duladei Road, Cuttack - 753013
-                                </h3>
-                            </div>
 
                             <div className="space-y-6">
                                 <div className="flex items-center gap-4">

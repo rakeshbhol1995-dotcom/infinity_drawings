@@ -59,7 +59,6 @@ export default function Studio() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80" />
                     
                     <div className="absolute bottom-10 left-10">
-                        <span className="text-[8px] font-black uppercase tracking-[0.5em] text-amber-500">Location: Cuttack, Odisha</span>
                         <h4 className="text-xl font-black uppercase tracking-widest text-white mt-2">Infinity Headquarters</h4>
                     </div>
                 </motion.div>

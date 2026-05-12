@@ -22,7 +22,7 @@ export default function Logos() {
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-16 md:mb-24">
                     <span className="text-[10px] font-bold tracking-[0.8em] text-black/40 uppercase block mb-4">The Network</span>
-                    <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tighter">Strategic <span className="italic text-black/20">Partners.</span></h2>
+                    <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tighter">Our <span className="italic text-black/20">Clients.</span></h2>
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-12 md:gap-24 items-center justify-items-center">
                     {partners.map((partner, idx) => (

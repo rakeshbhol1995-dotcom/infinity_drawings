@@ -210,9 +210,9 @@ export default function About() {
                         <span className="text-amber-500 font-medium">“What story needs to be told?”</span>
                     </h2>
                     
-                    <div className="space-y-6 text-white/60 font-light text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
+                    <div className="space-y-6 text-white/60 font-light text-lg md:text-xl max-w-3xl mx-auto leading-relaxed text-center">
                         <p>
-                            At Infinity Light Drawings, cinema is more than visuals—it’s an <em>experience</em>. A harmony of light, emotion, and storytelling crafted with intention. Every frame is designed like visual poetry—meant to engage, inspire, and endure.
+                            At <strong className="text-white">Infinity Light Drawings</strong>, cinema is more than visuals—it’s an <em>experience</em>. A harmony of light, emotion, and storytelling crafted with intention. Every frame is designed like visual poetry—meant to engage, inspire, and endure.
                         </p>
                         <p>
                             From films to commercials to digital content, we bring ideas to life with a distinct artistic voice and a deep respect for storytelling.

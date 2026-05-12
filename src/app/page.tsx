@@ -7,7 +7,7 @@ import Loader from "@/components/home/Loader";
 import Hero from "@/components/home/Hero";
 import Marquee from "@/components/home/Marquee";
 import Manifesto from "@/components/home/Manifesto";
-import AboutSection from "@/components/home/AboutSection";
+// import AboutSection from "@/components/home/AboutSection";
 import Founder from "@/components/home/Founder";
 import Stats from "@/components/home/Stats";
 import Gallery from "@/components/home/Gallery";
@@ -53,8 +53,8 @@ export default function Home() {
               <Manifesto />
           </div>
 
-          {/* Act II: The Visionary (About) */}
-          <AboutSection />
+          {/* Act II: The Visionary (Moved to About Page) */}
+          {/* <AboutSection /> */}
           <Founder />
           <Studio />
 

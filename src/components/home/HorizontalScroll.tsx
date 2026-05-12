@@ -21,7 +21,7 @@ export default function HorizontalScroll() {
     const x = useTransform(scrollYProgress, [0, 1], ["0%", "-66%"]); // Adjust based on number of items
 
     return (
-        <section ref={targetRef} className="relative h-[300vh] bg-neutral-950">
+        <section ref={targetRef} className="relative md:h-[300vh] bg-neutral-950">
             {/* Sticky Container - Only Sticky on Desktop */}
             <div className="md:sticky md:top-0 h-auto md:h-screen flex items-center overflow-hidden py-20 md:py-0">
                 <div className="absolute top-10 md:top-20 left-6 md:left-20 z-10">

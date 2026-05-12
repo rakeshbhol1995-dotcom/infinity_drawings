@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 import { X, Maximize2, Camera, Filter } from "lucide-react";
 
-type Category = "all" | "film" | "corporate" | "ngo";
+type Category = "all" | "film" | "corporate" | "ngo" | "tvc";
 
 const galleryImages = [
     { id: 1, src: "/gallery/gallery_1.png", span: "row-span-2 col-span-2", alt: "Cinematic Film Set", category: "film" },
@@ -13,15 +13,16 @@ const galleryImages = [
     { id: 4, src: "/gallery/corporate_1.png", span: "row-span-1 col-span-2", alt: "Corporate Briefing Session", category: "corporate" },
     { id: 5, src: "/projects/bts_2.png", span: "row-span-2 col-span-2", alt: "NGO Social Impact Story", category: "ngo" },
     { id: 6, src: "/projects/bts_3.png", span: "row-span-1 col-span-1", alt: "Authentic Rural Capture", category: "ngo" },
-    { id: 7, src: "/projects/bts_4.png", span: "row-span-1 col-span-2", alt: "Multi-cam Corporate Setup", category: "corporate" },
+    { id: 7, src: "/projects/bts_4.png", span: "row-span-1 col-span-2", alt: "TVC Production Setup", category: "tvc" },
     { id: 8, src: "/projects/bts_5.png", span: "row-span-2 col-span-1", alt: "Community Outreach Project", category: "ngo" },
-    { id: 9, src: "/projects/bts_1.png", span: "row-span-1 col-span-1", alt: "Executive Interview Production", category: "corporate" },
+    { id: 9, src: "/projects/bts_1.png", span: "row-span-1 col-span-1", alt: "Ad Film Shoot", category: "tvc" },
 ];
 
 const categories: { label: string; value: Category }[] = [
     { label: "All Work", value: "all" },
     { label: "Film", value: "film" },
     { label: "Corporate", value: "corporate" },
+    { label: "TVC", value: "tvc" },
     { label: "NGO", value: "ngo" },
 ];
 
@@ -66,7 +67,7 @@ export default function Gallery() {
                             viewport={{ once: true }}
                             className="text-4xl md:text-7xl font-black uppercase tracking-tighter leading-[0.9]"
                         >
-                            Our <span className="text-white/10 italic">Portfolio.</span>
+                            Behind The <span className="text-white/10 italic">Scenes.</span>
                         </motion.h2>
                     </div>
 

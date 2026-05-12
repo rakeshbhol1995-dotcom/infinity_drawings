@@ -13,13 +13,14 @@ const works = [
     { id: "05", title: "Last Drop", category: "DOCUMENTARY", year: "2020", url: "https://drive.google.com/drive/folders/1B-QSRBM0cBFGlPrSCFKvCSeBPMDN2o_l" },
     { id: "06", title: "Trapped (Director)", category: "SHORT FILM", year: "2020", url: "https://www.youtube.com/watch?v=K7fg9FRb6sQ" },
     { id: "07", title: "Dustbin (Director)", category: "SHORT FILM", year: "2019", url: "https://www.youtube.com/watch?v=sWdYUDqULg0" },
-    { id: "08", title: "College TVC Portfolio", category: "TVC", year: "2024", url: "https://drive.google.com/drive/folders/1hCLiYRtW_GMJMUZ8gK2qZaHqKpCAEIVa" },
+    { id: "08", title: "Ad Films & TVC Portfolio", category: "TVC", year: "2024", url: "https://drive.google.com/drive/folders/1hCLiYRtW_GMJMUZ8gK2qZaHqKpCAEIVa" },
     { id: "09", title: "Corporate Films Archive", category: "CORPORATE", year: "2024", url: "https://drive.google.com/drive/folders/1hCLiYRtW_GMJMUZ8gK2qZaHqKpCAEIVa" },
-    { id: "10", title: "NGO Social Impact Films", category: "NGO", year: "2024", url: "https://drive.google.com/file/d/1g2NZF8D27iocupY1E4W_dUIbMH7umRWx/view?usp=drivesdk" },
-    { id: "11", title: "Sri Jagannath Mandir Heritage Corridor", category: "CORPORATE", year: "2024", url: "https://drive.google.com/file/d/1n075kH5GG7V30plpaJyS1bUXgxYAG0v2/view" },
-    { id: "12", title: "5T School Development Documentation", category: "CORPORATE", year: "2023", url: "https://drive.google.com/drive/u/2/folders/1VJynjjHe8Bo50V8eN9WlHO0tw nWZwXl3" },
-    { id: "13", title: "Skilling Odisha Youth (OSDA)", category: "NGO", year: "2022", url: "https://drive.google.com/drive/u/2/folders/175gLClqYYefdbKyQNNkLvinTUJEHFEON" },
-    { id: "14", title: "Women & Child (Mamata Scheme)", category: "NGO", year: "2022", url: "https://drive.google.com/file/d/151xT7LBprZFoD_479ftga3YaCGEskH s1/view" },
+    { id: "10", title: "NGO & Social Impact Films", category: "NGO", year: "2024", url: "https://drive.google.com/drive/folders/1_ML1sseldP7MzK5Loh-uXFgnEF93fFR4?usp=drive_link" },
+    { id: "11", title: "The Diddle (Production)", category: "FILM", year: "2023", url: "#" },
+    { id: "12", title: "Sri Jagannath Mandir Heritage Corridor", category: "CORPORATE", year: "2024", url: "https://drive.google.com/file/d/1n075kH5GG7V30plpaJyS1bUXgxYAG0v2/view" },
+    { id: "13", title: "5T School Development Documentation", category: "CORPORATE", year: "2023", url: "https://drive.google.com/drive/u/2/folders/1VJynjjHe8Bo50V8eN9WlHO0tw nWZwXl3" },
+    { id: "14", title: "Skilling Odisha Youth (OSDA)", category: "NGO", year: "2022", url: "https://drive.google.com/drive/u/2/folders/175gLClqYYefdbKyQNNkLvinTUJEHFEON" },
+    { id: "15", title: "Women & Child (Mamata Scheme)", category: "NGO", year: "2022", url: "https://drive.google.com/file/d/151xT7LBprZFoD_479ftga3YaCGEskH s1/view" },
 ];
 
 export default function Work() {

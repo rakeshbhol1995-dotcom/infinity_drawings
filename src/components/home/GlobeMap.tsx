@@ -7,7 +7,7 @@ export default function GlobeMap() {
         <section className="py-40 px-6 md:px-20 bg-zinc-950 text-white relative overflow-hidden flex flex-col items-center justify-center min-h-screen border-t border-white/5">
             <div className="text-center mb-20 relative z-20">
                 <span className="text-xs font-bold tracking-[0.8em] text-amber-500 uppercase block mb-4">Coverage</span>
-                <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter">Global <span className="italic text-white/30">Reach.</span></h2>
+                <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter">Mumbai & <span className="italic text-white/30">Odisha.</span></h2>
             </div>
 
             {/* Abstract Radar/Globe Map overlay */}
@@ -59,7 +59,7 @@ export default function GlobeMap() {
                 ))}
             </div>
 
-            <p className="mt-20 text-[10px] uppercase font-bold tracking-[0.4em] text-white/30 relative z-20">Filmed & Screened Across 5+ Countries</p>
+            <p className="mt-20 text-[10px] uppercase font-bold tracking-[0.4em] text-white/30 relative z-20">Studio Presence in Mumbai & Odisha</p>
         </section>
     );
 }

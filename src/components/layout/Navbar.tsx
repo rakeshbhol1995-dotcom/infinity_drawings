@@ -137,7 +137,7 @@ export default function Navbar() {
                         
                         <div className="mt-20 pt-10 border-t border-white/10 w-full text-center">
                             <span className="text-[10px] uppercase tracking-[0.4em] text-white/30 font-bold">
-                                Based in Odisha — Global Reach
+                                Based in Mumbai & Odisha
                             </span>
                         </div>
                     </motion.div>

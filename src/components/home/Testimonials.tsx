@@ -6,21 +6,21 @@ import { Quote, Star } from "lucide-react";
 const testimonials = [
     {
         name: "Shyam Sundar",
-        role: "Production Head, Sony LIV",
+        role: "Production Head",
         content: "Working with Nishith was a seamless experience. His vision for cinematic storytelling is exceptional, especially during the production of Jengaburu.",
         rating: 5
     },
     {
         name: "Amrita Patnaik",
-        role: "Creative Director, Cinema 4 Good",
+        role: "Creative Director",
         content: "The way he captures human emotions in documentaries like 'Last Drop' is truly moving. A storyteller who understands the soul of the subject.",
-        rating: 5
+        rating: 4
     },
     {
         name: "Rajesh Mohanty",
         role: "Executive Producer",
         content: "His attention to detail and ability to handle large-scale productions while keeping the artistic essence alive is remarkable.",
-        rating: 5
+        rating: 3
     }
 ];
 

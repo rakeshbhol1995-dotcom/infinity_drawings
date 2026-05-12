@@ -7,35 +7,35 @@ import { ArrowUpRight } from "lucide-react";
 const services = [
     { 
         title: "Corporate Films", 
-        desc: "We produce high-quality films for government departments and institutions, combining clarity, creativity, and cinematic excellence.", 
+        desc: "Turning brands into powerful human stories with cinematic depth and professional precision.", 
         num: "01", 
         img: "/services/corporate_new.png",
         link: "https://drive.google.com/drive/folders/1hCLiYRtW_GMJMUZ8gK2qZaHqKpCAEIVa"
     },
     { 
-        title: "College TVCs", 
-        desc: "Capturing the energy and legacy of educational institutions through dynamic television commercials and campus promos.", 
+        title: "Ad Films & TVCs", 
+        desc: "Visually striking narratives that connect instantly and leave a lasting impact on the audience.", 
         num: "02", 
         img: "/services/college_tvc.png",
         link: "https://drive.google.com/drive/folders/1hCLiYRtW_GMJMUZ8gK2qZaHqKpCAEIVa"
     },
     { 
-        title: "NGO Projects", 
-        desc: "We create impactful films for NGOs that highlight real stories, social issues, and community change through empathetic storytelling.", 
+        title: "NGO & Social", 
+        desc: "Purpose-driven storytelling rooted in truth and empathy, highlighting community change and social impact.", 
         num: "03", 
         img: "/services/ngo_new.png",
-        link: "https://drive.google.com/file/d/1g2NZF8D27iocupY1E4W_dUIbMH7umRWx/view?usp=drivesdk"
+        link: "https://drive.google.com/drive/folders/1_ML1sseldP7MzK5Loh-uXFgnEF93fFR4?usp=drive_link"
     },
     { 
         title: "Documentary", 
-        desc: "Unveil the truth to inspire and inform through deep-dive investigative and human-centric films.", 
+        desc: "Real stories told with authenticity, sensitivity, and depth to inspire and inform through cinematic realism.", 
         num: "04", 
         img: "/services/documentary.png",
         link: "https://drive.google.com/drive/folders/1B-QSRBM0cBFGlPrSCFKvCSeBPMDN2o_l"
     },
     { 
         title: "Short Films", 
-        desc: "Bold psychological narratives and social awareness films that explore human emotions and community issues.", 
+        desc: "Bold, expressive narratives exploring the human condition through creative and psychological storytelling.", 
         num: "05", 
         img: "/services/shortfilm.png",
         link: "https://www.youtube.com/watch?v=K7fg9FRb6sQ"
