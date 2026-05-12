@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 const stats = [
     { label: "Independent Films Produced", value: 5, suffix: "+" },
     { label: "Global Festival Selections", value: 10, suffix: "+" },
-    { label: "Years of Visual Artistry", value: 5, suffix: "" },
+    { label: "Years of Visual Artistry", value: 7, suffix: "+" },
 ];
 
 export default function Stats() {
