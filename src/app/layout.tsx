@@ -1,23 +1,29 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import JsonLd from "@/components/seo/JsonLd";
+
 
 export const metadata: Metadata = {
     metadataBase: new URL("https://infinitylightdrawings.com"),
     title: {
-        default: "Infinity Light Drawings | Bespoke Film Production House",
+        default: "Infinity Light Drawings | Premium Film Production House Mumbai & Odisha",
         template: "%s | Infinity Light Drawings"
     },
-    description: "Infinity Light Drawings is a premium film production house by Nishith Sahasransu Ray. Specializing in cinematic storytelling, independent cinema, and next-gen visual aesthetics.",
+    description: "Infinity Light Drawings is an award-winning film production house by Nishith Sahasransu Ray. We specialize in cinematic storytelling, independent cinema, ad films, and next-gen visual aesthetics in Mumbai and Odisha.",
     keywords: [
         "Infinity Light Drawings",
         "Best Production House India",
-        "Cinematic Storytelling",
+        "Film Production House Mumbai",
         "Film Production Odisha",
         "Nishith Sahasransu Ray",
-        "Independent Filmmaking",
+        "Independent Filmmaking India",
+        "Cinematic Storytelling",
+        "Ad Film Production House",
+        "Documentary Filmmaker India",
+        "Bespoke Film Production",
+        "Odia Film Industry",
         "Creative Visual Aesthetics",
-        "Professional Film Studio",
-        "Documentary Filmmaker India"
+        "Professional Film Studio Mumbai"
     ],
     authors: [{ name: "Nishith Sahasransu Ray" }],
     creator: "Nishith Sahasransu Ray",
@@ -51,8 +57,8 @@ export const metadata: Metadata = {
         ],
     },
     openGraph: {
-        title: "Infinity Light Drawings | Bespoke Film Production House",
-        description: "Experience cinematic storytelling and next-gen visual aesthetics with Nishith Sahasransu Ray.",
+        title: "Infinity Light Drawings | Premium Film Production House Mumbai & Odisha",
+        description: "Experience world-class cinematic storytelling and next-gen visual aesthetics with Nishith Sahasransu Ray.",
         url: "https://infinitylightdrawings.com",
         siteName: "Infinity Light Drawings",
         images: [
@@ -68,9 +74,12 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Infinity Light Drawings | Bespoke Film Production House",
-        description: "Experience cinematic storytelling and next-gen visual aesthetics with Nishith Sahasransu Ray.",
+        title: "Infinity Light Drawings | Premium Film Production House Mumbai & Odisha",
+        description: "Experience world-class cinematic storytelling and next-gen visual aesthetics with Nishith Sahasransu Ray.",
         images: ["/new_logo.png"],
+    },
+    verification: {
+        google: "WlAysyop7pPCiNF2zw1hLCYKwbEkgCIdLebxpMWqUBA",
     },
 };
 
@@ -83,6 +92,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className="antialiased font-sans">
+                <JsonLd />
                 {children}
             </body>
         </html>

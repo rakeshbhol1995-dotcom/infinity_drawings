@@ -26,9 +26,10 @@ export default function Founder() {
                     {/* Founder image container */}
                     <div className="absolute inset-12 rounded-full bg-zinc-900 border border-amber-500/20 overflow-hidden group">
                         {/* Founder Image */}
-                        <div
-                            className="absolute inset-0 bg-cover bg-center transition-all duration-[2s] group-hover:scale-105"
-                            style={{ backgroundImage: "url('/nishit.jpg')" }}
+                        <img
+                            src="/nishit.jpg"
+                            alt="Nishith Sahasransu Ray - Founder of Infinity Light Drawings"
+                            className="absolute inset-0 w-full h-full object-cover transition-all duration-[2s] group-hover:scale-105"
                         />
                         {/* Dramatic Shadow Gradient Overlay */}
                         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80 pointer-events-none" />

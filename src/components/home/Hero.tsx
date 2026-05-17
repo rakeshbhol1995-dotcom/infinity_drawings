@@ -48,6 +48,10 @@ export default function Hero() {
                         Drawings
                     </motion.span>
                 </h1>
+                <p className="sr-only">
+                    Infinity Light Drawings by Nishith Sahasransu Ray - Premium Film Production House specializing in Cinematic Storytelling, Independent Cinema, Ad Films, and Documentaries in Mumbai and Odisha.
+                </p>
+
             </div>
 
             {/* Scroll Indicator */}
