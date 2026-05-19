@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import JsonLd from "@/components/seo/JsonLd";
+import SecurityLayer from "@/components/SecurityLayer";
 
 
 export const metadata: Metadata = {
@@ -92,6 +93,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className="antialiased font-sans">
+                <SecurityLayer />
                 <JsonLd />
                 {children}
             </body>
